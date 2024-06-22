@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <style>
-    /* General body and typography styles */
+    <style>
+        /* General body and typography styles */
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -11,6 +11,15 @@ body {
     background-color: #f4f4f4; /* Light grey background */
     color: #333; /* Dark grey text */
 }
+        h1, h2 {
+            color: #333;
+        }
+        .assignment {
+            margin-bottom: 10px;
+            padding: 1px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
 
 .container {
     max-width: 1200px;
@@ -36,47 +45,53 @@ header p {
     color: #eee; /* Light grey paragraph text */
 }
 
-#assignments {
+#add-subparts {
     background-color: #fff;
     padding: 50px 0;
 }
 
-.assignment {
-    width: 300px;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ddd;
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9; /* Light grey form background */
+    padding: 30px;
     border-radius: 8px;
-    background-color: #f9f9f9; /* Light grey assignment background */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
 }
 
-.assignment:hover {
-    transform: translateY(-5px);
+.form-group {
+    margin-bottom: 20px;
 }
 
-.assignment h2 {
-    font-size: 1.5em;
-    color: #333;
-    margin-bottom: 10px;
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
-.assignment p {
-    text-align: center;
+input[type="text"],
+input[type="url"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-.assignment a {
-    display: inline-block;
-    padding: 10px 20px;
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
     background-color: #007bff; /* Blue button background */
     color: #fff; /* White button text */
-    text-decoration: none;
+    border: none;
     border-radius: 4px;
+    cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-.assignment a:hover {
+button:hover {
     background-color: #0056b3; /* Darker blue on hover */
 }
 
@@ -95,29 +110,34 @@ footer b {
     font-weight: bold;
 }
 
-    </style>
+        </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignments Repository</title>
+    <title>Module 1</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
 </head>
 <body>
 
 <header>
-    <div class="container">
-        <h1>Assignments Repository</h1>
-        <p>Welcome to our assignments repository. Below are the assignments completed by Team "Rising Commanders":</p>
-    </div>
+           <h1 class="container">Module 1</h1>
+ 
 </header>
 
+
 <section id="assignments">
-    <div class="container">
-        <div class="assignment">
-            <h2 align = center>Module 1</h2>
-            <p><a href="module_1.html">View</a></p>
-        </div>
-        <!-- Add more assignments as needed -->
-    </div>
+  <div class="assignment">
+      <h2 align = center>Qr Code Assignment</h2>
+      <p align = center>Click here to <a href="module 1 digital skills\assignment_submission_qrcode.html">View</a></p>
+  </div>
+<div class="assignment">
+      <h2 align = center>Data Input Form Assignment</h2>
+      <p align = center>Click here to <a href="https://forms.gle/smGiH1obk2vZdfNb8">View</a></p>
+  </div>
+  <div class="assignment">
+    <h2 align = center>Presentation Deck</h2>
+    <p align = center>Click here to <a href="https://gamma.app/docs/The-Impact-of-Technological-Advancements-on-Society-f0g7l5mkrxj6m25">View</a></p>
+</div>
+  <!-- Add more assignments as needed -->
 </section>
 
 <footer>
