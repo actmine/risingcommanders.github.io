@@ -3,171 +3,151 @@
 <head>
     <style>
         /* General body and typography styles */
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4; /* Light grey background */
-    color: #333; /* Dark grey text */
-}
-        h1, h2 {
-            color: #333;
-        }
-        .assignment {
-            margin-bottom: 10px;
-            padding: 1px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-header {
-    text-align: center;
-    padding: 50px 0;
-    background-color: #007bff; /* Blue header background */
-    color: #fff; /* White header text */
-}
-
-header h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
-}
-
-header p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-    color: #eee; /* Light grey paragraph text */
-}
-
-#add-subparts {
-    background-color: #fff;
-    padding: 50px 0;
-}
-
-form {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: #f9f9f9; /* Light grey form background */
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-input[type="text"],
-input[type="url"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    font-size: 1em;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff; /* Blue button background */
-    color: #fff; /* White button text */
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-}
-
-footer {
-    text-align: center;
-    padding: 30px 0;
-    background-color: #333; /* Dark footer background */
-    color: #fff; /* White footer text */
-}
-
-footer p {
-    margin-bottom: 10px;
-}
-
-footer b {
-    font-weight: bold;
-}
-
+    body {
+        font-family: 'Arial', sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4; /* Light grey background */
+        color: #333; /* Dark grey text */
+    }
+    
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+    header {
+        text-align: center;
+        padding: 50px 0;
+        background-color: #007bff; /* Blue header background */
+        color: #fff; /* White header text */
+    }
+    
+    header h1 {
+        font-size: 3em;
+        margin-bottom: 10px;
+    }
+    
+    header p {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+        color: #eee; /* Light grey paragraph text */
+    }
+    
+    #assignments {
+        background-color: #fff;
+        padding: 50px 0;
+    }
+    
+    .assignment {
+        width: 300px;
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #f9f9f9; /* Light grey assignment background */
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        margin-left: 600px;
+        transition: transform 0.3s ease;
+    }
+    
+    .assignment:hover {
+        transform: translateY(-5px);
+    }
+    
+    .assignment h2 {
+        font-size: 1.5em;
+        color: #333;
+        margin-bottom: 10px;
+    }
+    
+    .assignment p {
+        text-align: center;
+    }
+    
+    .assignment a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff; /* Blue button background */
+        color: #fff; /* White button text */
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .assignment a:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+    }
+    
+    footer {
+        text-align: center;
+        padding: 30px 0;
+        background-color: #333; /* Dark footer background */
+        color: #fff; /* White footer text */
+    }
+    
+    footer p {
+        margin-bottom: 10px;
+    }
+    
+    footer b {
+        font-weight: bold;
+    }
+    
         </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Module 1</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
 </head>
 <body>
 
 <header>
-           <h1 class="container">Module 1</h1>
- 
+    <h1 class="container">Module 1</h1>
 </header>
 
-
 <section id="assignments">
-  <div class="assignment">
-      <h2 align = center>Qr Code Assignment(Vihaan Sarekh)</h2>
-      <p align = center>Click here to <a href="module 1 digital skills\assignment_submission_qrcode.html">View</a></p>
-  </div>
-  <div class="assignment">
-    <h2 align = center>Data Input Form Assignment(Samar Sarin)</h2>
-    <p align = center>Click here to <a href="https://forms.gle/smGiH1obk2vZdfNb8">View</a></p>
-</div>
-<div class="assignment">
-    <h2 align = center>Photo Collage Assignment(Samar Sarin)</h2>
-    <p align = center>Click here to <a href="module 1 digital skills\assignment_submission_collage.html">View</a></p>
-</div>
-<div class="assignment">
-    <h2 align = center>A.I. Music Composing(Ikshu Sachdeva)</h2>
-    <p align = center>Click here to <a href="https://musiclab.chromeexperiments.com/Song-Maker/song/5020530556665856">View</a></p>
-</div>
-
-<div class="assignment">
-    <h2 align = center>Presentation Deck(Ikshu Sachdeva)</h2>
-    <p align = center>Click here to <a href="https://gamma.app/docs/The-Impact-of-Technological-Advancements-on-Society-f0g7l5mkrxj6m25">View</a></p>
-</div>
-  <!-- Add more assignments as needed -->
-  <div class="assignment">
-    <h2 align = center>Virtual Tour(Vihaan Sarekh)</h2>
-    <p align = center>Click here to <a href="module 1 digital skills\assignment_submission_thinglink.html">View</a></p>
-</div>
-<div class="assignment">
-    <h2 align = center>Argumented Reality(Vihaan Sarekh)</h2>
-    <p align = center>Download this the <a href="module 1 digital skills/ag/image.jpeg">image</a> to scan on this <a href="https://l96y9.webar.run/5066426898872986988/v1/">website</a></p>
-</div>
-<div class="assignment">
-    <h2 align = center>E Book(Samar Sarin)</h2>
-    <p align = center><a href="module 1 digital skills/ebook/ebook.pdf">View</a></p>
-</div>
-<div class="assignment">
-    <h2 align = center>Google Form Website(Samar Sarin)</h2>
-    <p align = center><a href="https://sites.google.com/view/food-scarcity-a-global-issue/home?authuser=1">View</a></p>
-</div>
-<div class="assignment">
-    <h2 align = center>A.I. Comic(Vihaan Sarekh)</h2>
-    <p align = center><a href="module 1 digital skills/assigment_submission_comic.html">View</a></p>
-</div>
-
+    <div class="assignment">
+        <h2 align="center">Qr Code Assignment(Vihaan Sarekh)</h2>
+        <p align="center">Click here to <a href="module 1 digital skills/assignment_submission_qrcode.html">View</a></p>
+    </div>
+    <div class="assignment">
+        <h2 align="center">Data Input Form Assignment(Samar Sarin)</h2>
+        <p align="center">Click here to <a href="https://forms.gle/smGiH1obk2vZdfNb8">View</a></p>
+    </div>
+    <div class="assignment">
+        <h2 align="center">Photo Collage Assignment(Samar Sarin)</h2>
+        <p align="center">Click here to <a href="module 1 digital skills/assignment_submission_collage.html">View</a></p>
+    </div>
+    <div class="assignment">
+        <h2 align="center">A.I. Music Composing(Ikshu Sachdeva)</h2>
+        <p align="center">Click here to <a href="https://musiclab.chromeexperiments.com/Song-Maker/song/5020530556665856">View</a></p>
+    </div>
+    <div class="assignment">
+        <h2 align="center">Presentation Deck(Ikshu Sachdeva)</h2>
+        <p align="center">Click here to <a href="https://gamma.app/docs/The-Impact-of-Technological-Advancements-on-Society-f0g7l5mkrxj6m25">View</a></p>
+    </div>
+    <div class="assignment">
+        <h2 align="center">Virtual Tour(Vihaan Sarekh)</h2>
+        <p align="center">Click here to <a href="module 1 digital skills/assignment_submission_thinglink.html">View</a></p>
+    </div>
+    <div class="assignment">
+        <h2 align="center">Argumented Reality(Vihaan Sarekh)</h2>
+        <p align="center">Download this <a href="module 1 digital skills/ag/image.jpeg">image</a> to scan on this <br><br><a href="https://l96y9.webar.run/5066426898872986988/v1/">website</a></p>
+    </div>
+    <div class="assignment">
+        <h2 align="center">E Book(Samar Sarin)</h2>
+        <p align="center"><a href="module 1 digital skills/ebook/ebook.pdf">View</a></p>
+    </div>
+    <div class="assignment">
+        <h2 align="center">Google Form Website(Samar Sarin)</h2>
+        <p align="center"><a href="https://sites.google.com/view/food-scarcity-a-global-issue/home?authuser=1">View</a></p>
+    </div>
+    <div class="assignment">
+        <h2 align="center">A.I. Comic(Vihaan Sarekh)</h2>
+        <p align="center"><a href="module 1 digital skills/assigment_submission_comic.html">View</a></p>
+    </div>
 </section>
 
 <footer>
